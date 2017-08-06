@@ -1,0 +1,38 @@
+1、pyhton安装
+python-3.4.3.amd64.msi
+2、java SE环境配置
+java版本：jre-8u144-windows-x64.exe
+版本号1.8.0.144
+3、集成开发环境eclipse安装
+eclipse_v4.5.0.exe
+4、python插件Pydev配置
+5、Python Interpreters配置
+
+一、python环境安装
+使用默认安装，选择当前用户安装。
+安装完成后，配置环境变量。
+C:\Python34;
+二、java SE环境安装。
+安装eclipse之前必须要配置java环境。
+注意：java版本不能太低，要符合eclipse的安装需求。
+java 安装采用默认安装
+安装完成后需要配置环境变量 bin目录
+C:\Program Files\Java\jre1.8.0_144\bin
+三、eclipse安装。
+
+注意，安装时先要更新，否则会报错，安装 java developer选项
+
+4、python插件Pydev配置
+
+在Eclipse的help--install new software里，点击ADD 名字输入Pydev，链接地址输入：http://pydev.org/updates 
+然后选择PyDev，另一个可以不选。就 可以下载了，会然给你确认是否同意之类的。安装完毕后，重启eclipse生效。
+按照提示，操作下一步。
+
+
+插件安装成功后，需要配置Python Interpreters，打开eclipse，打开 窗口->首选项(Window->Preferences...) 对话框，
+从右侧的树形列表中选择" PyDev"->"Interpreter Python"， 点击新建（New）按钮，从Python的安装路径下选择Python.exe，
+然后会弹出一个对话框让你勾选System PYTHONPATH，点确定，大功告成。 如下图所示：
+
+
+新建一个项目
+
